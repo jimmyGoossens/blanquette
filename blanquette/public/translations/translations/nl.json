@@ -1,0 +1,25 @@
+{
+    "general.description": "Description",
+    "nav.home": "home",
+    "nav.about": "about",
+    "nav.events": "events",
+    "nav.gallery": "gallery",
+    "home.whatTitle":"What we are",
+    "home.whatWeAre" : "Collectif Bruxellois, soirées et évènements Techno, Drum and Bass et Blanquette dans la capitale.",
+    "home.specialTitle":"What we are",
+    "home.special": "Collectif Bruxellois, soirées et évènements Techno, Drum and Bass et Blanquette dans la capitale.",
+    "home.TestimonyOne":"What we are",
+    "home.TestimonyOneName":"What we are",
+    "home.TestimonyTwoo":"What we are",
+    "home.TestimonyTwooName":"What we are",
+    "home.TestimonyThree":"What we are",
+    "home.TestimonyThreeName":"What we are",
+    "about.story":"Deux théories s’affrontent quant à l’origine de ce plat bourgeois et aujourd'hui familial. La première, celle de Noël Flantier, reporter, soutient que la blanquette n'était à l’origine qu'une manière d’apprêter des restes de rôti de veau avec une sauce blanche additionné de vin blanc et de verjus puis découpé en morceaux que l’on fait dorer dans du saindoux. La seconde théorie, la nôtre, veut qu'une bonne blanquette se déguste sur des basses croustillantes, parmi les personnes les plus tendres et accompagnée de la crème des artistes underground émergent.e.s de Bruxelles et d'ailleurs. L'alliance entre la passion de la bass music et le goût prononcé pour la blanquette de veau qui vient régaler la capitale.",
+    "about.storyTitle": "Our Story",
+    "about.valueTitle": "Our Values",
+    "about.valueMusicTitle": "Good Music",
+    "about.valueMusic": "come listen to the best music of the underground tehno music in brussels",
+    "about.valueAmbiTitle": "Good Ambi",
+    "about.valueAmbi": "come feel the good vibes"
+
+}

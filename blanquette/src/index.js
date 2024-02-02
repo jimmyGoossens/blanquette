@@ -1,13 +1,49 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+ import ReactDOM from 'react-dom/client';
+ import './index.css';
+// import App from './App';
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import HomeScreen from './screens/HomeScreen';
+import AboutScreen from './screens/AboutScreen';
+import EventListScreen from './screens/EventListScreen';
+import GalleryScreen from './screens/GalleryScreen';
+import AdminScreen from './screens/AdminScreen';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeScreen/>,
+  },
+  {
+    path: "/about",
+    element: <AboutScreen/>,
+  },
+  {
+    path: "/events",
+    element: <EventListScreen/>,
+  },
+  {
+    path: "/gallery",
+    element: <GalleryScreen/>,
+  },
+  {
+    path: "Admin",
+    element: <AdminScreen/>,
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
